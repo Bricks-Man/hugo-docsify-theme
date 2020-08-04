@@ -1,0 +1,49 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+@media print {
+    .github-corner, aside {
+        display:none
+    }
+}
+.github-corner, .sidebar, .sidebar-toggle {
+    position:fixed
+}
+.github-corner {
+    border-bottom:0;
+    position:fixed;
+    right:0;
+    text-decoration:none;
+    top:0;
+    z-index:1;
+    transition: transform .25s ease-out
+}
+.github-corner svg {
+    color:#fff;
+    fill:var(--theme-color, #42b983);
+    height:80px;
+    width:80px
+}
+
+.github-corner .octo-arm {
+    -webkit-animation:octocat-wave .56s ease-in-out;
+    animation:octocat-wave .56s ease-in-out
+}
+.github-corner:hover .octo-arm {
+    -webkit-animation:octocat-wave .56s ease-in-out;
+    animation:octocat-wave .56s ease-in-out
+}
+
+.book-menu nav::-webkit-scrollbar {
+    width:4px;
+}
+.book-menu nav::-webkit-scrollbar-thumb {
+    background:transparent;
+    border-radius:4px;
+}
+.book-menu nav:hover::-webkit-scrollbar-thumb {
+    background:hsla(0, 0%, 53.3%, .4)
+}
+.book-menu nav:hover::-webkit-scrollbar-track {
+    background:hsla(0, 0%, 53.3%, .1)
+}
